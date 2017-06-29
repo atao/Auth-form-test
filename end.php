@@ -10,7 +10,7 @@
   unset($_SESSION);
 ?>
 <?php
-  echo "Déconnexion...";
+  echo "Déconnexion en cours...";
   sleep(1);
   header('Location: admin.php');
   exit();
